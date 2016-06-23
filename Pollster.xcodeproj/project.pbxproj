@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B12094B31D1A63E1004230F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12094B21D1A63E1004230F4 /* AppDelegate.swift */; };
-		B12094B51D1A63E1004230F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12094B41D1A63E1004230F4 /* ViewController.swift */; };
 		B12094B81D1A63E1004230F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12094B61D1A63E1004230F4 /* Main.storyboard */; };
 		B12094BA1D1A63E1004230F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12094B91D1A63E1004230F4 /* Assets.xcassets */; };
 		B12094BD1D1A63E1004230F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12094BB1D1A63E1004230F4 /* LaunchScreen.storyboard */; };
+		B12094C71D1A7019004230F4 /* CloudKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12094C61D1A7019004230F4 /* CloudKitExtensions.swift */; };
+		B12094CF1D1A917C004230F4 /* CloudQandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12094CE1D1A917C004230F4 /* CloudQandATableViewController.swift */; };
+		B12094D11D1B50B9004230F4 /* TextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12094D01D1B50B9004230F4 /* TextTableViewController.swift */; };
+		B12094D31D1B5365004230F4 /* QandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12094D21D1B5365004230F4 /* QandATableViewController.swift */; };
+		B12094D51D1BC73C004230F4 /* QandAAccessoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12094D41D1BC73C004230F4 /* QandAAccessoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B12094AF1D1A63E1004230F4 /* Pollster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12094B21D1A63E1004230F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B12094B41D1A63E1004230F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B12094B71D1A63E1004230F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B12094B91D1A63E1004230F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12094BC1D1A63E1004230F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12094BE1D1A63E1004230F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12094C61D1A7019004230F4 /* CloudKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitExtensions.swift; sourceTree = "<group>"; };
+		B12094CE1D1A917C004230F4 /* CloudQandATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudQandATableViewController.swift; sourceTree = "<group>"; };
+		B12094D01D1B50B9004230F4 /* TextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewController.swift; sourceTree = "<group>"; };
+		B12094D21D1B5365004230F4 /* QandATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandATableViewController.swift; sourceTree = "<group>"; };
+		B12094D41D1BC73C004230F4 /* QandAAccessoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandAAccessoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				B12094B21D1A63E1004230F4 /* AppDelegate.swift */,
-				B12094B41D1A63E1004230F4 /* ViewController.swift */,
 				B12094B61D1A63E1004230F4 /* Main.storyboard */,
+				B12094CE1D1A917C004230F4 /* CloudQandATableViewController.swift */,
+				B12094C51D1A6E6C004230F4 /* Supporting Files */,
+			);
+			path = Pollster;
+			sourceTree = "<group>";
+		};
+		B12094C51D1A6E6C004230F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B12094C61D1A7019004230F4 /* CloudKitExtensions.swift */,
+				B12094D41D1BC73C004230F4 /* QandAAccessoryTableViewController.swift */,
+				B12094D21D1B5365004230F4 /* QandATableViewController.swift */,
+				B12094D01D1B50B9004230F4 /* TextTableViewController.swift */,
 				B12094B91D1A63E1004230F4 /* Assets.xcassets */,
 				B12094BB1D1A63E1004230F4 /* LaunchScreen.storyboard */,
 				B12094BE1D1A63E1004230F4 /* Info.plist */,
 			);
-			path = Pollster;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12094B51D1A63E1004230F4 /* ViewController.swift in Sources */,
+				B12094D11D1B50B9004230F4 /* TextTableViewController.swift in Sources */,
+				B12094D31D1B5365004230F4 /* QandATableViewController.swift in Sources */,
+				B12094D51D1BC73C004230F4 /* QandAAccessoryTableViewController.swift in Sources */,
+				B12094C71D1A7019004230F4 /* CloudKitExtensions.swift in Sources */,
+				B12094CF1D1A917C004230F4 /* CloudQandATableViewController.swift in Sources */,
 				B12094B31D1A63E1004230F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +310,7 @@
 				B12094C31D1A63E1004230F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
